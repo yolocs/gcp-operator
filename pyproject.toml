@@ -1,0 +1,13 @@
+[project]
+name = "gcp-operator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk>=0.2.5",
+    "click>=8.2.1",
+    "google-adk>=1.1.1",
+    "mcp[cli]>=1.9.1",
+    "uvicorn>=0.34.2",
+]
